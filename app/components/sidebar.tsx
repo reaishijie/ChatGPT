@@ -223,8 +223,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="存在网免费AI助手"
+        subTitle="免费使用密码加入QQ群733678316获取！"
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
@@ -299,10 +299,10 @@ export function SideBar(props: { className?: string }) {
               </Link>
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-                <IconButton icon={<GithubIcon />} shadow />
-              </a>
-            </div>
+    <a href="https://api.dzzui.com/api/jiaqun?qun=733678316" target="_blank" rel="noopener noreferrer">
+        <IconButton icon={<GithubIcon />} shadow />
+    </a>
+</div>
           </>
         }
         secondaryAction={
