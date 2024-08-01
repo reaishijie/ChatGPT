@@ -223,8 +223,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="存在网免费AI助手"
-        subTitle="免费使用密码加入QQ群733678316获取！"
+        title="免费AI助手"
+        subTitle="使用密码加入QQ群733678316免费获取！"
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
